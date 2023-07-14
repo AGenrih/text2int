@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rutext2int"
+version = "1.0.0"
+description = "desc"
+authors = ["Genrih <genrih@ujin.tech>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymorphy2 = "0.9.1"
+pymorphy2-dicts-ru = "2.4.417127.4579844"
+pyyaml = "6.0"
+razdel = "0.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
